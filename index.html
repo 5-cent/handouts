@@ -22,10 +22,10 @@
             color: #2e4d3d;
             position: relative;
         }
-        .nav-buttons {
-            margin-top: 10px;
-            text-align: right; /* Aligns button to the right */
-            padding-right: 20px; /* Adds spacing from the right */
+        .header {
+            display: flex;
+            justify-content: space-between; /* Pushes elements to opposite ends */
+            align-items: center;
         }
         .nav-buttons a {
             text-decoration: none;
@@ -33,17 +33,11 @@
             background: white;
             color: #2e4d3d;
             border-radius: 5px;
-            display: inline-block;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Youth Camp Training</h1>
-        <p>Participant's Handout</p>
-        <div class="nav-buttons">
-            <a href="slide1.html">Start</a>
-        </div>
-    </div>
-</body>
-</html>
+        <div class="header">
+            <div>
